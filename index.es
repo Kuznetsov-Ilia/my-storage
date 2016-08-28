@@ -1,4 +1,4 @@
-import window from 'my-global';
+import {window} from 'my-global';
 import {Eventable} from 'my-event';
 var STORAGE = Eventable({});
 if ('localStorage' in window) {
